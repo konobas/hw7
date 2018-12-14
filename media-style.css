@@ -1,0 +1,296 @@
+@media screen and (min-width:768px) and (max-width:960px){
+	.top-menu{
+		width:728px;
+		text-align: left;
+	}
+	.logo{
+		float: none;
+		display: block;
+	}
+	.logo:after{
+		content: "";
+		height: 0;
+		display: block;
+		visibility: hidden;
+		clear: both;
+	}
+	header{
+		padding-bottom: 135px;
+	}
+	.menu-header{
+		display: block;
+		margin-top: 35px;
+		float: none;
+	}
+	.item-header{
+		line-height: 0px;
+	}
+	.item-header:first-child{
+		margin-left: 0px;
+	}
+	.wrapper{
+		width: 728px;
+	}
+	.arrow-left{
+		left: -3%;
+	}
+	.arrow-right{
+		right: -4%;
+	}
+	.left-mid-h{
+		padding: 110px 80px 110px 20px;
+	}
+	.right-mid-h{
+		padding: 0px 50px 0px 0px;
+	}
+	.wrapper-ad{
+		padding: 0px 0px 0px 0px;
+	}
+	.dc, .element, .awsm, .rvca, .vonzipper{
+		margin-left: 55px;
+	}
+	footer ul:after{
+		content: "";
+		height: 0;
+		display: block;
+		visibility: hidden;
+		clear: both;
+	}
+	.wrapper-3{
+		width: 828px;
+	}
+}
+@media screen and (min-width: 480px) and (max-width: 767px){
+	.top-menu{
+		width: 440px;
+		text-align: center;
+	}
+	.logo{
+		float: none;
+		display: block;
+	}
+	.menu-header{
+		display: block;
+		float: none;
+	}
+	.item-header{
+		display: none;
+		float:none;
+		line-height: 20px;
+	}
+	.item-header:first-child{
+		display: block;
+	}
+	.item-header a:hover .item-header{
+		display: block;
+	}
+	header{
+		padding: 200px 0px 100px 0px;
+	}
+	.wrapper{
+		width: 440px;
+	}
+	.wrapper-3{
+		width: 440px;
+	}
+	.left-mid-h{
+		padding: 100px 0px 100px 20px;
+	}
+	.left-mid-h h2{
+		font-size: 39px;
+	}
+	.left-mid-h h4{
+		font-size: 15px;
+	}
+	.left-mid-h p{
+		display: none;
+	}
+	.right-mid-h{
+		padding: 0px 10px 0px 20px;
+	}
+	main{
+		padding: 50px 0px 70px 0px;
+	}
+	.main-top-item{
+		width: 100%;
+		float: none;
+		padding: 30px 5px 0px 60px;
+	}
+	.container{
+		padding: 70px 0px 90px 0px;
+	}
+	.content-left{
+		float: none;
+		width: 100%;
+		padding: 0px 0px 0px 20px;
+	}
+	.dialog{
+		padding: 30px 20px 35px 35px; 
+	}
+	.content-right{
+		float: none;
+		width: 100%;
+		padding: 90px 0px 0px 60px;
+	}
+	.container-mid{
+		padding: 35px 0px 40px 0px;
+	}
+	.wrapper-ad{
+		padding: 0px 60px 0px 60px;
+	}
+	.dc, .element, .rvca, .vonzipper{
+		margin-left: 55px;
+	}
+	.awsm, .rvca, .vonzipper{		
+		margin-top: 25px;
+	}
+	.vonzipper{
+		margin-right: -15px;
+	}
+	.awsm{
+		margin-left: -15px;
+	}
+	.container-bottom{
+		padding: 20px 0px 30px 0px;
+	}
+	.container-bot-1, .container-bot-2, .container-bot-3{
+	width: 100%;
+	padding: 60px 0px 0px 0px;
+	float: none;
+	}
+	footer li{
+		padding-left: 25px;
+	}
+	.sign{
+		padding-top: 40px;
+		margin: 0 auto;
+		float: none;
+		display: block;
+		text-align: center;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 479px){
+	.top-menu{
+		width: 280px;
+		text-align: center;
+	}
+	.logo{
+		float: none;
+		display: block;
+	}
+	.menu-header{
+		display: block;
+		float: none;
+	}
+	.item-header{
+		display: none;
+		float:none;
+		line-height: 20px;
+		position: absolute;
+	}
+	.item-header:first-child{
+		display: block;
+		position: relative;
+	}
+	.item-header:first-child:hover .item-header{
+		display: block;
+	}
+	.wrapper{
+		width: 280px;
+		margin: 0 auto;
+	}
+	.wrapper-3{
+		width: 280px;
+	}
+	header{
+		padding: 305px 0px 165px 0px;		
+	}
+	.mid-header{
+		background-color: rgba(0,0,0,0);
+	}
+	.left-mid-h{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.left-mid-h h2{
+		font-size: 39px;
+	}
+	.left-mid-h h4{
+		font-size: 15px;
+	}
+	.left-mid-h p{
+		display: none;
+	}
+	.right-mid-h{
+		display: none;
+	}
+	main{
+		padding-bottom: 65px;
+	}
+	.main-top-item{
+		width: 100%;
+		float: none;
+		padding: 30px 5px 0px 45px;
+	}
+	.content-left{
+		float: none;
+		width: 100%;
+		padding: 0px 0px 0px 20px;
+	}
+	.dialog{
+		padding: 30px 20px 35px 35px; 
+	}
+	.content-right{
+		float: none;
+		width: 100%;
+		padding: 90px 0px 0px 15px;
+	}
+	.top, .mid, .bottom{
+		padding: 25px 0 10px 0;
+		padding-left: 45px;
+	}
+	.content-right p{		
+		padding-left: 45px;
+	}
+	.container-mid{
+		padding: 55px 0px 75px 0px;
+	}
+	.wrapper-ad{
+		padding: 0px 20px 0px 40px;
+	}
+	.dc{
+		margin-left: 55px;
+	}
+	.awsm{
+		margin-left: 75px;
+	}
+	.vonzipper{
+		margin-left: 40px;
+	}
+	.element{
+		margin-left: 0px;
+	}
+	.rvca{
+		margin-left: -10px;
+	}
+	.element, .awsm, .vonzipper, .rvca{
+		margin-top: 60px;
+	}
+	.container-bottom{
+		display: none;
+	}
+	footer{
+		text-align: center; 
+		background-size: cover;
+	}
+	footer ul{
+		display: none;
+	}
+	.sign{
+		float: none;
+	}
+
+}
+
+
